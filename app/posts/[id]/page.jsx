@@ -1,10 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const page = ({ params }) => {
-    const { id } = params
-    return (
-        <div>hola post {id}</div>
-    )
-}
+const page = ({ children }) => {
+  return null;
+};
 
-export default page
+export default page;
